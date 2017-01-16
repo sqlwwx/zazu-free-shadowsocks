@@ -1,0 +1,12 @@
+{
+  "name": "zazu-free-shadowsocks",
+  "version": "0.0.1",
+  "description": "zazu plugin for getting free sock proxies",
+  "main": "index.js",
+  "repository": "git@github.com:sqlwwx/zazu-free-shadowsocks.git",
+  "author": "sqlwwx <wwx_2012@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "free-shadowsocks": "^1.0.2"
+  }
+}

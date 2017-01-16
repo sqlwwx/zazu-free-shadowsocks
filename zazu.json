@@ -1,0 +1,26 @@
+{
+  "name": "free-shadowsocks",
+  "version": "0.0.1",
+  "description": "zazu plugin for getting free sock proxies.",
+  "blocks": {
+    "input": [
+      {
+        "type": "PrefixScript",
+        "prefix": "free-ss",
+        "space": false,
+        "args": "None",
+        "script": "index.js",
+        "connections": [
+          "copy"
+        ]
+      }
+    ],
+    "output": [
+      {
+        "id": "copy",
+        "type": "CopyToClipboard",
+        "text": "{value}"
+      }
+    ]
+  }
+}
