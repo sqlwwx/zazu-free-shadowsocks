@@ -7,6 +7,6 @@
   "author": "sqlwwx <wwx_2012@hotmail.com>",
   "license": "MIT",
   "dependencies": {
-    "free-shadowsocks": "^1.0.2"
+    "free-shadowsocks": "^1.0.3"
   }
 }
