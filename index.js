@@ -1,9 +1,10 @@
-var freeShadowsocks = require('free-shadowsocks')
+const freeShadowsocks = require('free-shadowsocks')
 
 const template = (server) => ({
+  id: server.address,
   icon: 'fa-globe',
   title: `${server.password}`,
-  subtitle: `${server.server} ${server.method} ${server.server_port}`,
+  subtitle: `${server.address} ${server.method} ${server.port}`,
   value: server.password
 })
 
